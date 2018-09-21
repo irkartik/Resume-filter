@@ -3,7 +3,7 @@ import textract
 import shutil
 
 def findWord(text, word):
-    if text.lower().count(word.lower()):
+    if text.lower().count(word):
         return True
     else:
         return False
